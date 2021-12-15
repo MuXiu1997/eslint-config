@@ -1,6 +1,6 @@
 {
   "name": "@muxiu1997/eslint-config-ts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config-ts": "^0.13.0",
-    "@muxiu1997/eslint-config-basic": "^0.3.0"
+    "@muxiu1997/eslint-config-basic": "^0.4.0"
   },
   "publishConfig": {
     "access": "public"
