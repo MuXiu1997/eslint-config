@@ -1,0 +1,26 @@
+{
+  "name": "@muxiu1997/eslint-config-vue",
+  "version": "0.3.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuXiu1997/eslint-config.git"
+  },
+  "author": "MuXiu1997 <muxiu1997@gmail.com> (https://github.com/MuXiu1997/)",
+  "homepage": "https://github.com/MuXiu1997/eslint-config#readme",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8.4.0",
+    "typescript": ">=4.0.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-vue": "^0.13.0",
+    "@muxiu1997/eslint-config-ts": "^0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
