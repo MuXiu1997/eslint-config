@@ -14,6 +14,5 @@
   "main": "index.js",
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "2510de6b36648b71cab7f2694f3ff105d1768005"
+  }
 }
