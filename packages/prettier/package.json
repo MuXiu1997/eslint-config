@@ -1,5 +1,5 @@
 {
-  "name": "@muxiu1997/eslint-config-basic",
+  "name": "@muxiu1997/eslint-config-prettier",
   "version": "0.1.2",
   "license": "MIT",
   "repository": {
@@ -13,10 +13,12 @@
   ],
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=8.4.0"
+    "eslint": ">=8.4.0",
+    "prettier": ">=2.5.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "^0.13.0"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
   },
   "publishConfig": {
     "access": "public"

@@ -17,19 +17,18 @@ importers:
   packages/basic:
     specifiers:
       '@antfu/eslint-config-basic': ^0.13.0
-      eslint: ^8.4.0
-      eslint-config-prettier: ^8.3.0
-      eslint-plugin-prettier: ^4.0.0
-      prettier: ^2.5.1
     dependencies:
       '@antfu/eslint-config-basic': 0.13.0_eslint@8.4.1
-      eslint-config-prettier: 8.3.0_eslint@8.4.1
-      eslint-plugin-prettier: 4.0.0_90bd2ba582f6d1348d73031482d782e2
-    devDependencies:
-      eslint: 8.4.1
-      prettier: 2.5.1
 
   packages/prettier:
+    specifiers:
+      eslint-config-prettier: ^8.3.0
+      eslint-plugin-prettier: ^4.0.0
+    dependencies:
+      eslint-config-prettier: 8.3.0_eslint@8.4.1
+      eslint-plugin-prettier: 4.0.0_7a7230de6af2e0e9b60ffd8829223a1a
+
+  packages/prettier-config:
     specifiers: {}
 
 packages:
@@ -2325,7 +2324,7 @@ packages:
       resolve: 1.20.0
       semver: 6.3.0
 
-  /eslint-plugin-prettier/4.0.0_90bd2ba582f6d1348d73031482d782e2:
+  /eslint-plugin-prettier/4.0.0_7a7230de6af2e0e9b60ffd8829223a1a:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -2338,7 +2337,6 @@ packages:
     dependencies:
       eslint: 8.4.1
       eslint-config-prettier: 8.3.0_eslint@8.4.1
-      prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -4395,12 +4393,6 @@ packages:
     dependencies:
       fast-diff: 1.2.0
     dev: false
-
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
