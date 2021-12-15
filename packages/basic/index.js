@@ -1,4 +1,5 @@
 const basic = require('@antfu/eslint-config-basic')
+
 module.exports = {
   extends: [
     '@antfu/eslint-config-basic',
