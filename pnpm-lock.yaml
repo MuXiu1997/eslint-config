@@ -14,6 +14,16 @@ importers:
       lerna: 4.0.0
       typescript: 4.5.4
 
+  packages/all:
+    specifiers:
+      '@muxiu1997/eslint-config-prettier': ^0.4.0
+      '@muxiu1997/eslint-config-vue': ^0.4.0
+      '@muxiu1997/prettier-config': ^0.4.0
+    dependencies:
+      '@muxiu1997/eslint-config-prettier': link:../prettier
+      '@muxiu1997/eslint-config-vue': link:../vue
+      '@muxiu1997/prettier-config': link:../prettier-config
+
   packages/basic:
     specifiers:
       '@antfu/eslint-config-basic': ^0.13.0
@@ -34,7 +44,7 @@ importers:
   packages/typescript:
     specifiers:
       '@antfu/eslint-config-ts': ^0.13.0
-      '@muxiu1997/eslint-config-basic': ^0.3.0
+      '@muxiu1997/eslint-config-basic': ^0.4.0
     dependencies:
       '@antfu/eslint-config-ts': 0.13.1_eslint@8.4.1+typescript@4.5.4
       '@muxiu1997/eslint-config-basic': link:../basic
@@ -42,7 +52,7 @@ importers:
   packages/vue:
     specifiers:
       '@antfu/eslint-config-vue': ^0.13.0
-      '@muxiu1997/eslint-config-ts': ^0.3.0
+      '@muxiu1997/eslint-config-ts': ^0.4.0
     dependencies:
       '@antfu/eslint-config-vue': 0.13.1_eslint@8.4.1+typescript@4.5.4
       '@muxiu1997/eslint-config-ts': link:../typescript
